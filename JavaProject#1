@@ -1,0 +1,29 @@
+import java.util.Scanner; //imports the scanner 
+
+public class FourSpaces { //creates the class
+	public static void main(String[] args) {
+	Scanner myObj = new Scanner(System.in); // Lets us use the scanner
+	System.out.println("What is your Name?");
+	String Name = myObj.nextLine();//takes user input
+	System.out.println("Hi " + Name + " Welcome to a Monsters Inc interview!");
+	boolean Job = true; //different types of data
+	int salary = 16;
+	int hours = 6;
+	int OpenJobs = 3;
+	while (Job = true) { //uses a while loop
+		System.out.println("Your job is to scare kids and capture their screams and bring them back");
+		break;
+	}
+	System.out.println("Your salary a day will be " + salary*hours + " Dollars if you work 6 hours");
+	
+	if (OpenJobs > 0) {//if else loop
+		System.out.println("You have the job");
+	} else {
+		System.out.println("Sorry we don't have space");
+	}
+	
+	
+	
+	}
+
+}
